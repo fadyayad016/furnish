@@ -1,0 +1,110 @@
+.padding_layout_1 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.main_heading h2 span::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 7px;
+    background: #d7bb3e;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin: 10px auto 0;
+}
+.Services_blog_inner
+{
+    padding-top: 50px;
+}
+.section_information {
+    background: url(https://html.design/demo/furnish/images/layout_img/test_bg2.png);
+    min-height: auto;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.section_information h4 {
+    margin: 30px 0;
+    font-size: 35px;
+    color: #222;
+    letter-spacing: -0.5px;
+    line-height: 45px;
+    font-weight: 800;
+}
+.read-btn {
+    width: 152px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    line-height: 46px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: transparent;
+    border: solid #000 2px;
+    font-size: 15px;
+}
+a, .btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    outline: none;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.btn-outline-secondary:hover {
+    color: white;
+    background-color: #d7bb3e;
+}
+.filter-button {
+    font-size: 17px;
+    border: solid #ddd 2px;
+    border-radius: 5px;
+    text-align: center;
+    color: #999;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 8px 25px 7px;
+    background: #fff;
+}
+.gallery_product {
+    margin-bottom: 30px;
+}
+.cardGallery{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.img-responsive {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.gross_layout {
+    position: relative;
+    background-position: right bottom;
+    background-size: cover;
+    background-image: url(	https://html.design/demo/furnish/images/layout_img/dark_bg_img.png);
+}

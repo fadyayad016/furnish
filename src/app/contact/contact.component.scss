@@ -1,0 +1,66 @@
+body{
+    overflow: hidden;
+}
+#row1{
+    margin-top: 3rem;
+    height: 250px;
+    background-image: url(../../assets/Contact/inner_page_banner.jpg);
+    background-repeat: no-repeat;
+
+    min-height: 245px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    text-align: center
+}
+h1{
+    margin-top: 6rem;
+    color: #91720d;
+    text-shadow:white 3px;
+    font-weight:bolder ;
+    text-align: center;
+    
+}
+.container>h1{
+    text-decoration: solid 5px underline;
+    margin-bottom: 2rem;
+}
+
+.form-group{
+
+    margin-bottom: 0.3rem;
+}
+.form-group>input{
+    border: solid #e1e1e1 1px;
+    width: 100%;
+    
+    min-height: 50px;
+    padding: 5px 20px;
+    line-height: normal;
+    border-radius: 1px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.form-group>textarea{
+    border: solid #e1e1e1 1px;
+    width: 100%;
+   
+    min-height: 50px;
+    padding: 5px 20px;
+    line-height: normal;
+    border-radius: 1px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#submit{
+    text-align: center center;
+    border: none;
+    background: #dfbb46;
+    border-radius: 5px;
+    height: 2.2rem;
+    margin-bottom: 3rem;
+    color: whitesmoke;
+    font-size: large;
+}   
+

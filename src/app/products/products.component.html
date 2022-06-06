@@ -1,0 +1,35 @@
+<!--slidr banner-->
+<div class="container-fluid">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img  src="/assets/Images/banner.jpg"  style="height: 300px;"class="d-block w-100 h-10" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: #d7bb3e; font-size: 50px; font-weight: 800;">our products</h5>
+               
+          </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+  
+<!--End Slider banner-->
+<!--prodducts in card-->
+<div class="container" style="margin-top: 100px; margin-bottom: 150px;">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let product of  productlist2">
+      <div class="card h-100 " style="border: solid 6px black">
+        <img [src]="product.Img" class="card-img-top" alt="...">
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-center text-light ">{{product.Name}}</h5>
+          <p class="card-text text-center text-light">{{product.Price}} l.E</p>
+          <button (click)= "addtocart(product)" style="background-color: cadetblue;font-size:20px;font-weight: 600;"> Add To Cart</button>
+        </div>
+      
+      </div>
+    </div>
+</div>
+</div>
+<!--end containter of products card-->
+

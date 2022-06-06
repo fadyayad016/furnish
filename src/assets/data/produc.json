@@ -1,0 +1,27 @@
+
+[   {"Name":"Aborah","Id":1, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":60,"Price":1200,"Img":"/assets/Images/product1.jpg"},
+    {"Name":"music tool","Id":2, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":100,"Price":1300,"Img":"/assets/Images/product2.jpg"},
+    {"Name":"Aborah","Id":3, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":150,"Price":1400,"Img":"/assets/Images/product9.jpg"},
+    {"Name":"chair","Id":4, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":70,"Price":1500,"Img":"/assets/Images/product3.jpg"},
+    {"Name":"Modern cahir","Id":5, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":80,"Price":1200,"Img":"/assets/Images/product4.jpg"},
+     
+    {"Name":"Comdino","Id":6, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":90,"Price":1600,"Img":"/assets/Images/product5.jpg"},
+     
+    {"Name":"Modern Chair","Id":7, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":15,"Price":1700,"Img":"/assets/Images/product6.jpg"},
+    {"Name":"Antra","Id":8, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":16,"Price":1800,"Img":"/assets/Images/product7.jpg"},
+    {"Name":"Modern chair","Id":9, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":25,"Price":1900,"Img":"/assets/Images/product8.jpg"},
+    {"Name":"Aborah","Id":10, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":30,"Price":1200,"Img":"/assets/Images/product1.jpg"},
+    {"Name":"music tool","Id":11, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":20,"Price":1300,"Img":"/assets/Images/product2.jpg"},
+    {"Name":"Aborah","Id":12, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":40,"Price":1400,"Img":"/assets/Images/product9.jpg"},
+    {"Name":"chair","Id":13, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":50,"Price":1500,"Img":"/assets/Images/product3.jpg"},
+    {"Name":"Modern cahir","Id":14, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":60,"Price":1200,"Img":"/assets/Images/product4.jpg"},
+     
+    {"Name":"Comdino","Id":15, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":70,"Price":1600,"Img":"/assets/Images/product5.jpg"},
+     
+    {"Name":"Modern Chair","Id":16, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":80,"Price":1700,"Img":"/assets/Images/product6.jpg"},
+    {"Name":"Antra","Id":17, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":90,"Price":1800,"Img":"/assets/Images/product7.jpg"},
+    {"Name":"Modern chair","Id":18, "Discount":10,"Discribtion":"beatifullfurinch","Quntity":10,"Price":1900,"Img":"/assets/Images/product8.jpg"}
+
+]
+     
+     

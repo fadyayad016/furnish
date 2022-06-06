@@ -1,0 +1,96 @@
+
+
+
+
+<!--slider-->
+<div class="container-fluid">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img  src="/assets/Images/banner.jpg"  style="height: 300px;"class="d-block w-100 h-10" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: #d7bb3e; font-size: 50px; font-weight: 800;">shopping cart</h5>
+               
+          </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!--slider-->
+   
+   
+     
+    <ng-container  *ngIf="cartlist.lenght!=0">
+        <div class="container">
+        <table class="table table-borderless ">
+            
+      
+       
+        <thead>
+          <tr class="table-dark  " style="height: 50px;font-size: 30px;">
+            <th>Product</th>
+            <th scope="col">Quntity</th>
+            <th scope="col">Price</th>
+            <th scope="col">Total</th>
+            <th scope="col"></th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of cartlist">
+            <td>
+                <div class="card mb-3" style="max-width: 540px; border: none;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img [src]="item.Img" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title" style="padding-top:30px;">{{item.Name}}</h5>
+                          <p class="card-text"><small class="text-muted" >available{{item.Quntity}} piece</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+           </td>
+             <td class="th-padding">
+                 <input type="text" name="Quntity"  value="1"class="quntity-text text-center">
+                
+             </td>
+            <td class="th-padding" >{{item.Price}}</td>
+            <td class="th-padding">{{item.Price}}</td>
+            <td class="th-padding" >
+                <button type="button" class="btn btn-warning" (click)=" removeitem(item)">Remove</button>
+                
+            </td>
+          </tr>
+          <tr>
+            <td><button (click)= "removeCart()"  class="btn btn-warning">ClearALL</button></td>
+            
+          </tr>
+        </tbody>
+    </table>
+    <div>
+      <img src="/assets/Images/onlineCART4.jpg" style="width: 500px;">
+    </div>
+    <div  style="display:flex">
+    <div>
+      <a routerLink="/Products" class=" btn btn-changing">Continue shopping</a>
+  </div>
+  <div style="margin-left: 30px;">
+      <a href="#" class="btn btn-changing "  style="float:right">Check out</a>
+  </div>
+        </div>
+        </div>
+       
+        
+    
+  
+  </ng-container>  >
+
+    <ng-container *ngIf="cartlist.lenght==0" >
+    <div >
+      empty
+    </div>
+
+  </ng-container>
